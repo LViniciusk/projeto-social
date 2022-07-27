@@ -41,3 +41,21 @@ main{
     width: 269px;
     height: 471px;
 }
+
+#social{
+    text-align: right;
+}
+#social img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000069;
+    box-sizing: border-box;
+}
+
+#social img:hover{
+    border: 2px solid #ffffffa9;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px #00000069;
+    transition: transform .15s;
+}
