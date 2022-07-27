@@ -51,6 +51,7 @@ main{
     border-radius: 50%;
     box-shadow: 2px 2px 5px #00000069;
     box-sizing: border-box;
+    z-index: 999;
 }
 
 #social img:hover{
